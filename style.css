@@ -11,12 +11,16 @@
     background-position: center;
 }
 .navbar{
-    width: 95%;
+    /*width: 95%;
     margin: auto;
     padding: 35px 750px;
-    display:flex;
+    display: flexbox;
     align-items: center;
+    justify-content: space-between;*/
+    display: flex;
+    padding: 2% 6%;
     justify-content: space-between;
+    align-items: center;
 }
 .navbar ul li{
     list-style: none;
@@ -159,8 +163,8 @@ button:hover{
     content: "";
     width: 20px;
     height: 3px;
-    background: #009688;
-    ;
+    background: #ffffff;
+  
     bottom: 0;
     left: 50%;
     margin-left: -10px;
@@ -168,6 +172,7 @@ button:hover{
 
 .single-service-icon [class^="flaticon-"]:before,.single-service-icon[class*=" flaticon-"]:before,.single-service-icon [class^="flaticon-"]:after,.single-service-icon [class*=" flaticon-"]:after {font-size:60px;}
 .single-service-item:hover .single-service-icon [class^="flaticon-"]:before,.single-service-item:hover .single-service-icon [class*=" flaticon-"]:before,.single-service-item:hover .single-service-icon [class^="flaticon-"]:after,.single-service-item:hover .single-service-icon [class*=" flaticon-"]:after {color:#fff;}
+
 
 
 .single-service-item:hover h2 a,.single-service-item:hover p{
@@ -185,4 +190,38 @@ button:hover{
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+/*--------------------footer-------------*/
+.footer {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #FFC107;
+}
+
+.footer i {
+    font-size: 20px;
+    margin-right: 5px;
 }
