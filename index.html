@@ -1,91 +1,154 @@
-<html>  
+<!DOCTYPE html>
+<html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-     <!-- title of site -->
-     <title>CarVilla</title>
-
-     <!-- For favicon png -->
-     <link rel="shortcut icon" type="image/icon" href="logo/favicon.png"/>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Car Selling Management</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 </head>
 <body>
-    <section class="banner">
-        <div class="navbar">
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="logo/favicon.png"></a>
+		<div class="nav-links" id="navLinks" >
+			<i class="fa fa-times "onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">COURSE</a></li>
+				<li><a href="">BLOG</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars"onclick="showMenu()"></i>
+	</nav>	
+<div class="text-box">
+	<h1>Worlds Biggest Shit</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.</br>
+	</p>
+	<a href=""class="hero-btn">Visit Us to know more</a>
+</div> 
 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Featured Cars</a></li>
-                <li><a href="#">New Cars</a></li>
-                <li><a href="#">Brands</a></li>
-                <li><a href="#">Payment</a></li>
+</section>
 
-            </ul>
-        </div>
-        <div class="content">
-            <h1>get your desired car in resonable price</h1>
-					<p>
-						“The one stop shop for your next car!”
-					</p>
-                    <div>
-                        
-                        <a href="" class="hero-btn">Add-on</a>
-                    </div>
-        </div>
-    </section>
-    <section id="service" class="service">
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <div class="single-service-item">
-                    <div class="single-service-icon">
-                        <i class="flaticon-car"></i>
-                    </div>
-                    <h2><a href="#">largest dealership <span> of</span> car</a></h2>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-service-item">
-                    <div class="single-service-icon">
-                        <i class="flaticon-car-repair"></i>
-                    </div>
-                    <h2><a href="#">unlimited repair warrenty</a></h2>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-service-item">
-                    <div class="single-service-icon">
-                        <i class="flaticon-car-1"></i>
-                    </div>
-                    <h2><a href="#">insurence support</a></h2>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia. 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="footer">
-            <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
-            <p>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </p>
-            <p>Follow us on: 
-                <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-                <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
-                <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-            </p>
-        </div>
-    </section>
+<!-------------------service-------------------------->
+<section class="service">
+	<h1>Services We Offer</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and</p>
+	<div class="row">
+		<div class="service-col">
+			<h3>Intermediate</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and</p>
+		</div>
+		<div class="service-col">
+			<h3>Lower</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and</p>
+		</div>
+		<div class="service-col">
+			<h3>Extreme</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and</p>
+		</div>
+	</div>
+</section>
+
+<!-------------------Facilities---------------------->
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and</p>
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/fc1.png">
+			<div class="layer">
+				<h3>BMW</h3>
+			</div>
+		</div>
+		<div class="facilities-col">
+			<img src="images/fc2.png">
+			<div class="layer">
+				<h3>DODGE</h3>
+			</div>
+		</div>
+		<div class="facilities-col">
+			<img src="images/fc3.png">
+			<div class="layer">
+				<h3>LAMBORGHINI</h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!----------Naye Centers------------>
+<section class="centers">
+	<h1>Our Centers</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and</p>
+	<div class="row">
+		<div class="centers-col">
+			<img src="images/fc1.png">
+			<h3>Center 1</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and</p>
+		</div>
+		<div class="centers-col">
+			<img src="images/fc2.png">
+			<h3>Center 2</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and</p>
+		</div>
+		<div class="centers-col">
+			<img src="images/fc3.png">
+			<h3>Center 3</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and</p>
+		</div>
+	</div>
+</section>
+
+<!-------------Testimonials-------------------->
+<section class="testimonials">
+	<h1>What our Client's says</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and</p>
+	<div class="row">
+		<div class="testimonials-col">
+			<img src="images/c1.png">
+			<div>
+				<p>Lorem Ipsum is simply dummy text of the printing and</p>
+				<h3>John Sawant</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+		<div class="testimonials-col">
+			<img src="images/c2.png">
+			<div>
+				<p>Lorem Ipsum is simply dummy text of the printing and</p>
+				<h3>Mark Henry</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!---------------Call to Action---------------->
+<section class="cta">
+	<h1>Enroll for various <br>car services</br> </h1>
+	<a href="">CONTACT US</a>
+</section>
+
+<!--------Javascript for Toggle Meenu---------------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu() {
+		navLinks.style.right="0";
+	}
+	function hideMenu() {
+		navLinks.style.right="-200px";
+	}
+</script>
 </body>
 </html>
